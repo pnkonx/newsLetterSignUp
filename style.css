@@ -102,6 +102,12 @@ input:focus {
     color: var(--darkGray-color);
 }
 
+.inputError {
+    border-color: tomato;
+    color: tomato;
+    background-color: rgb(252, 218, 211);
+}
+
 button{
     background-color: var(--darkGray-color);
     color: var(--white-color);
@@ -153,7 +159,7 @@ button:hover {
 .img2 {
     width: 35px;
     height: 35px;
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
 }
 
 .successMessageDiv h1 {
@@ -166,5 +172,11 @@ button:hover {
     text-align: left;
     line-height:normal;
     font-size: small;
-    margin: 20px 0 20px 0;
+    margin: 15px 0 25px 0;
+}
+
+.dismiss-btn {
+    position: relative;;
+    width: 100%;
+    
 }

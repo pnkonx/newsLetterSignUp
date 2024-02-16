@@ -44,8 +44,8 @@
         <p class="errorSubmit" id="errorSubmit">Valid email required</p>
       </div>
       
-      <input id="email" type="email" placeholder="email@company.com" required>
-      <button class="subscribe-btn" id="emailSubmit" type="submit">Subscribe to monthly newsletter</button>
+      <input id="email" type="email" placeholder="email@company.com" class="userEmail">
+      <button class="subscribe-btn" id="emailSubmit" type="submit" onclick="subscribe()">Subscribe to monthly newsletter</button>
     </div>
     <div class="imgSide">
       <img src="assets/images/illustration-sign-up-desktop.svg" class="img1">
@@ -58,7 +58,7 @@
     <img src="assets/images/icon-list.svg" class="img2">
     <h1>Thanks for subscribing!</h1>
     <p>
-      A confirmation email has been sent to <span><b>ash@loremcompany.com</b></span>.
+      A confirmation email has been sent to <span class="ghostEmail"><b>ash@loremcompany.com</b></span>.
       Please open it and click the button inside to confirm your subscription.
     </p>
     <button class="dismiss-btn">Dismiss message</button>
@@ -66,6 +66,6 @@
 
   
   
-  
+  <script src="script.js"></script>
 </body>
 </html>

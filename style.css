@@ -213,13 +213,21 @@ button:hover {
         margin: 0;
         padding: 0;
         top: 0;
-        height: 400px;
+        height: 375px;
+        align-items: flex-start;
+        
     }
 
     .textSide {
         margin: 0;
         padding: 0;
-        height: 400px;
+        height: 375px;
+        
+        width: 100%;
+    }
+
+    .textSide h1 {
+        font-size: 14px;
     }
 
 

@@ -50,7 +50,13 @@
       </div>
     </div>
     <div class="imgSide">
-      <img src="assets/images/illustration-sign-up-desktop.svg" class="img1 responsive">
+      <picture>
+        <source media="(max-width: 375px)" srcset="assets/images/illustration-sign-up-mobile.svg" />
+        <source media="(min-width: 400px)" srcset="assets/images/illustration-sign-up-desktop.svg" />
+        <img
+          src="assets/images/illustration-sign-up-desktop.svg"
+          class="img1 responsive">
+      </picture>
     </div>
   </div>
 

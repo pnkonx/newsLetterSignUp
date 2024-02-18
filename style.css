@@ -191,7 +191,7 @@ button:hover {
 @media only screen and (max-width: 375px) {
     body {
         display: flex;
-        
+        font-size: 16px;
         place-content:;
         align-items: flex-start; 
         
@@ -204,7 +204,7 @@ button:hover {
         display:flex;
         flex-direction: column-reverse;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content:start;
         padding: 0;
         margin: 0;
     }
@@ -213,24 +213,49 @@ button:hover {
         margin: 0;
         padding: 0;
         top: 0;
-        height: 375px;
+        height: 300px;
         align-items: flex-start;
         
     }
 
     .textSide {
-        margin: 0;
+        margin: 0px 10px 0 10px;
         padding: 0;
         height: 375px;
-        
+    
         width: 100%;
     }
 
     .textSide h1 {
-        font-size: 14px;
+        font-size: 3rem;
+        line-height: normal;
     }
 
+    .underH1 {
+        width: 90%;
+    }
 
+    .interactionArea {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        font-size: 16px;
+        border-radius: 5px;;
+    }
+
+    button {
+        font-size: 16px; 
+        border-radius: 5px;
+    }
+
+    .label {
+        font-size: 16px;
+    }
 
 }
     
